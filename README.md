@@ -1,9 +1,17 @@
-# eda-imdb-top250
+# Análise Exploratória do IMDb Top 250
 
-Objetivo: entender padrões do catálogo Netflix.
+## Objetivo
+Explorar as características dos 250 melhores filmes segundo o IMDb.
 
-Etapas: limpeza, exploração, visualização.
+## Principais Insights
+1. **Drama** é o gênero dominante no Top 250.
+2. Filmes mais longos (>180 min) tendem a ter notas altas.
+3. Stanley Kubrick é o diretor com mais filmes na lista.
+4. Décadas de **1950-1960** têm as maiores médias de notas.
 
-Principais insights (com prints dos gráficos).
+## Como Reproduzir
+1. Instale as dependências: `pip install pandas seaborn matplotlib jupyter`
+2. Execute o notebook: `jupyter notebook imdb_eda.ipynb`
 
-Ferramentas: Python, Pandas, Seaborn, Matplotlib.
+## Visualizações
+![Notas por Década](visuals/ratings_by_decade.png)
